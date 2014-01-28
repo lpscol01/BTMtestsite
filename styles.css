@@ -1,0 +1,170 @@
+div#wrapper {
+	margin: 0 auto; 
+	width: 960px;
+}
+
+body{
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-family: "Quicksand"
+}
+
+.title{
+	margin-top: 20px; 
+}
+
+nav#nav1 li {
+	display: inline; 
+	margin-top: 20px;
+}
+
+	nav#nav1 a {
+		text-decoration: none;
+		margin: 10px; 
+		padding: 5px;
+	}
+
+	nav#nav1 li:hover {
+		border: 1px solid gray; 
+		border-radius: 10px;
+	}
+
+nav#nav2 li {
+	float: right; 
+	display: block;	
+}
+
+	nav#nav2 a {
+		text-decoration: none; 
+		margin: 5px;  
+	}
+
+	nav#nav2 li:hover {
+		border: 1px solid gray; 
+		border-radius: 10px; 
+	}
+
+span.cr {
+	font-size: 8pt
+}
+
+a {
+	font-size: 10pt; 
+	color: red;
+	text-decoration: none;
+}
+
+.menubar {
+	text-align: center; 
+	padding-top: 150px
+}
+
+.menubar img {
+	width: 250px; 
+	display: inline-block;
+}
+
+.menubar a:hover {
+	background-color: white; 
+	font-size: 20px; 
+	color: black; 
+	opacity: 0.5;
+}	
+
+h3{
+	padding-top: .5cm;
+	font-family: arial;
+}
+
+.pages { 
+	text-align: center;
+}
+
+#page1 {
+	color: orange;
+	display: inline-block;
+	width: 250px; 
+	margin-right: auto; 
+	margin-left: auto;
+	font-style: bold;
+}
+
+#page2 {
+	color: orange;
+	display: inline-block;
+	width: 250px; 
+	margin-right: auto; 
+	margin-left: auto;
+	font-style: bold;
+}	
+
+#page3 {
+	color: orange;
+	display: inline-block;
+	width: 250px; 
+	margin-right: auto; 
+	margin-left: auto;
+	font-style: bold;
+}
+
+div#planephoto{
+	text-align: center;
+	padding: 40px;
+	margin-top: 60px
+}	
+
+div.quote1{
+	text-align: center;
+	margin-bottom: .75cm;
+}
+
+span.quote1 {
+	font-size: 16pt;
+	font-style: italic;
+	color: pink;
+}
+
+#mantra {
+	text-align: center;
+	padding: 1cm;
+	font-size: 14pt; 
+	font-style: italic;
+	color: orange;
+}
+
+.col1 {
+	float: left; 
+	width: 50%;
+	padding-right: 25px;
+	
+}
+
+.col2 {
+	float: right;
+	width: 40%;
+	padding: 20px;
+	border: double pink 5px;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto; margin-top: 50px
+}
+
+.gallery {
+	float: right; 
+	width: 80%;  
+	display: inline-block;
+	padding-top: 100px;
+}
+				
+.gallery img {
+	width: 250px;
+}
+
+.footer {
+	float: right;
+	display: block;
+ 	color: gray;
+	margin-top: 4cm; 
+	font-size: 10pt;
+}
