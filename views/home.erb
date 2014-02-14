@@ -1,0 +1,16 @@
+<%= "Hey man" %>
+
+<% nav_routes = ["index", "gallery", "personal", "contact"] %>
+<nav>
+	<ul>
+	<% nav_routes.each do |route| %>
+		<li>
+			<a href="/<%= route %>"><%= route %></a>
+		</li>
+		<% end %>
+	</ul>
+</nav>
+
+<body>
+	some content
+</body>	

@@ -11,18 +11,21 @@ body{
 }
 
 .title{
-	margin-top: 20px; 
+	position: absolute; left: 110px;
 }
 
-nav#nav1 li {
-	display: inline; 
-	margin-top: 20px;
-}
+nav#nav1 {
+	position: absolute; left:75px; top: 50px;
+}	
+	nav#nav1 li {
+		display: inline; 
+		padding: 20px;
+		text-align: center;
+	}
 
 	nav#nav1 a {
 		text-decoration: none;
-		margin: 10px; 
-		padding: 5px;
+
 	}
 
 	nav#nav1 li:hover {
@@ -30,19 +33,20 @@ nav#nav1 li {
 		border-radius: 10px;
 	}
 
-nav#nav2 li {
-	float: right; 
-	display: block;	
+nav#nav2 {
+	position: fixed;	
 }
 
+	nav#nav2 li {
+		display: block;
+		padding-bottom: 5px;
+	}
 	nav#nav2 a {
 		text-decoration: none; 
-		margin: 5px;  
 	}
 
 	nav#nav2 li:hover {
-		border: 1px solid gray; 
-		border-radius: 10px; 
+		border: 1px solid black;  
 	}
 
 span.cr {
@@ -57,7 +61,7 @@ a {
 
 .menubar {
 	text-align: center; 
-	padding-top: 150px
+	padding-top: 200px
 }
 
 .menubar img {
@@ -110,8 +114,8 @@ h3{
 
 div#planephoto{
 	text-align: center;
-	padding: 40px;
-	margin-top: 60px
+	padding-top: 150px;
+	padding-bottom: 20px;
 }	
 
 div.quote1{
@@ -150,15 +154,43 @@ span.quote1 {
 	margin: auto; margin-top: 50px
 }
 
-.gallery {
+#gallery1 {
 	float: right; 
 	width: 80%;  
 	display: inline-block;
 	padding-top: 100px;
 }
 				
-.gallery img {
-	width: 250px;
+#gallery1 img {
+	width: 200px;
+	margin: 3px;
+	border: 1px solid gray;
+}
+
+#gallery2 {
+	float: right; 
+	width: 80%;  
+	display: inline-block;
+	padding-top: 40px;
+}
+				
+#gallery2 img {
+	width: 200px;
+	margin: 3px;
+	border: 1px solid gray;
+}
+
+#gallery3 {
+	float: right; 
+	width: 80%;  
+	display: inline-block;
+	padding-top: 40px;
+}
+				
+#gallery3 img {
+	width: 200px;
+	margin: 3px;
+	border: 1px solid gray;
 }
 
 .footer {
